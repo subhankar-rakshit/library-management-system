@@ -20,7 +20,7 @@ Install Tkinter
 ****Create a Database and Two Tables****
 ☛Create a table "book_list" under the "library_management" database
 
-create table contact_register(
+create table book_list(
 	book_id VARCHAR(10) NOT NULL,
 	book_name VARCHAR(50) NOT NULL,
 	author VARCHAR(50) NOT NULL,
@@ -39,6 +39,5 @@ create table borrow_record(
 	course VARCHAR(10) NOT NULL,
 	subject VARCHAR(30) NOT NULL,
 	issue_date date NOT NULL,
-	return_date date NOT NULL,
-	PRIMARY KEY ( book_id )
+	return_date date NOT NULL
 );
